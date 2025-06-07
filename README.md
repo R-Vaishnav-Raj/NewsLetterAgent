@@ -31,6 +31,8 @@ news_letter_agent/
 
 ##  Architecture
 
+![Architecture Diagram](./architecture.png)
+
 - **`user_research_agent`**: Analyzes user profile and extracts interests  
 - **`research_topic`**: Generates 3 relevant newsletter topics  
 - **`initial_research_agent`** & **`refine_research_agent`**: Perform iterative research and deep analysis  
