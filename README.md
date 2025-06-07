@@ -69,7 +69,7 @@ pip install -r requirements.txt
 ```
 ### 4. Configure Environment Variables
 
-add your API key into the .env file:
+Create a `.env` file in the root directory of your project and add your Google ADK API key:
 
 ```bash
 # .env
