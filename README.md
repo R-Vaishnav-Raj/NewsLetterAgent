@@ -50,8 +50,8 @@ Follow these steps to set up and run the AI Newsletter Agent locally:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/newsletter-agent.git
-cd newsletter-agent
+git clone https://github.com/R-Vaishnav-Raj/NewsLetterAgent.git
+cd NewsLetterAgent
 ```
 
 ### 2. Create and Activate Virtual Environment
