@@ -59,7 +59,7 @@ cd NewsLetterAgent
 ```bash
 python -m venv .venv
 # Activate (Windows)
-.venv\Scripts\activate
+.venv\Scripts\Activate.ps1
 # Or on macOS/Linux
 source .venv/bin/activate
 ```
