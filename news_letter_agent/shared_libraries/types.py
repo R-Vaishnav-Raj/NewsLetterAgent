@@ -15,6 +15,10 @@ class Profile(BaseModel):
     desires: list[str]= Field(description="Desires of the target audience such as: money, time, status, etc.")
     challenges: list[str] = Field(description="Challenges of the target audience such as: time, money, status, etc.")
 
+class Title(BaseModel):
+    """A section of the newsletter."""
+    content: str= Field(description="Content of the title section.")
+
 class Intro(BaseModel):
     """A section of the newsletter."""
     content: str= Field(description="Content of the intro section.")

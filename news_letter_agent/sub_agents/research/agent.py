@@ -17,11 +17,11 @@ user_research_agent=Agent(
 research_topic=Agent(
     name="research_topic",
     model="gemini-1.5-flash",
-    description="Creates 3 topic for the news letter based on user input",
+    description="Creates a topic for the news letter based on user input",
     instruction = """
     You are an idea generation agent. Your task is to analyze the user's input — which may include interests, events, goals, or themes — and generate exactly three distinct, engaging, and relevant topics for a newsletter.
 
-    Each topic should:
+    topic should:
     1. Be concise yet descriptive.
     2. Be suitable for a newsletter audience.
     3. Reflect the user's intent or interest.
@@ -36,7 +36,7 @@ initial_research_agent= Agent(
     model="gemini-1.5-flash",
     description="An Intelligent researcher that does an initial research on topics.",
     instruction = """
-    Based on the 3 topics, do an intial broad reserch on each topic and understand the keys events 
+    Based on the topic, do an intial broad reserch on each topic and understand the keys events 
     and things happening around that topic
     You always try to understand why something matters to the user. 
     Figure out the historical context of the news and tie it back to the user's query.
